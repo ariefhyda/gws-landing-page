@@ -442,6 +442,30 @@ img {
     color: var(--primary);
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.feature-list h4 a {
+    color: var(--accent-pub);
+    font-size: 0.75rem;
+    transition: transform 0.2s;
+}
+
+.feature-list h4 a:hover {
+    transform: scale(1.1);
+}
+
+.feature-list p a {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.feature-list p a:hover {
+    color: var(--accent-pub);
 }
 
 .col-image {
